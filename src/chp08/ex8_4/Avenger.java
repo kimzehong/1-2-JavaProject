@@ -1,6 +1,4 @@
-package ex8_4;
-
-import java.util.function.DoubleFunction;
+package chp08.ex8_4;
 
 public class Avenger {
     private String name;

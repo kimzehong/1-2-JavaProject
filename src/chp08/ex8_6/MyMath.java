@@ -1,4 +1,4 @@
-package ex8_6;
+package chp08.ex8_6;
 
 public class MyMath {
 //공유 영역(static) 할당되는 클래스메소드

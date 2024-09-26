@@ -4,14 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="520c4b80-c0b8-49b3-9b50-5c69fdad8676" name="Changes" comment="0912 자바 객체지향 and static 키워드 학습">
-      <change afterPath="$PROJECT_DIR$/src/ex8_5/MainStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex8_5/StudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex8_6/MainMyMath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex8_6/MyMath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex8_8/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex8_8/MainAccount.java" afterDir="false" />
+    <list default="true" id="520c4b80-c0b8-49b3-9b50-5c69fdad8676" name="Changes" comment="0919 자바 8장 실습">
+      <change afterPath="$PROJECT_DIR$/src/Practice/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/AccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_9/CoffeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp08/ex8_9/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp09/ex09_3/MainRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab1/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab1/MonsterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex8_2/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp08/ex8_2/Drink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex8_2/MainDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp08/ex8_2/MainDrink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex8_4/Avenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp08/ex8_4/Avenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex8_4/MainAvenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp08/ex8_4/MainAvenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex8_5/MainStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp08/ex8_5/MainStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex8_5/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp08/ex8_5/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex8_6/MainMyMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp08/ex8_6/MainMyMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex8_6/MyMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp08/ex8_6/MyMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex8_8/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp08/ex8_8/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex8_8/MainAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp08/ex8_8/MainAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab1/MainSquare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab1/Square.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +64,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AccountTest.executor": "Run",
+    "Application.CoffeTest.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MainAccount.executor": "Run",
     "Application.MainAvenger.executor": "Run",
@@ -58,6 +73,7 @@
     "Application.MainDrink.executor": "Run",
     "Application.MainHero.executor": "Run",
     "Application.MainMyMath.executor": "Run",
+    "Application.MainRandom.executor": "Run",
     "Application.MainSquare.executor": "Debug",
     "Application.MainStudent.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -76,6 +92,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="MainRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chp09.ex09_3.MainRandom" />
+      <module name="Java0905" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chp09.ex09_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainRandom" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -97,7 +133,9 @@
       <workItem from="1726101163683" duration="6411000" />
       <workItem from="1726118407631" duration="55000" />
       <workItem from="1726705692539" duration="38000" />
-      <workItem from="1726705741545" duration="6485000" />
+      <workItem from="1726705741545" duration="8589000" />
+      <workItem from="1727309654158" duration="201000" />
+      <workItem from="1727309867250" duration="8616000" />
     </task>
     <task id="LOCAL-00001" summary="0905 자바 클래스와 객체">
       <option name="closed" value="true" />
@@ -131,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726109687202</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="0919 자바 8장 실습">
+      <option name="closed" value="true" />
+      <created>1726714172251</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726714172251</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +186,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0905 자바 클래스와 객체" />
     <MESSAGE value="0912 자바 객체지향 and static 키워드 학습" />
-    <option name="LAST_COMMIT_MESSAGE" value="0912 자바 객체지향 and static 키워드 학습" />
+    <MESSAGE value="0919 자바 8장 실습" />
+    <option name="LAST_COMMIT_MESSAGE" value="0919 자바 8장 실습" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
