@@ -1,4 +1,4 @@
-package chp09.ex09_3;
+package chp09;
 import java.util.Random;
 
 public class MainRandom {
