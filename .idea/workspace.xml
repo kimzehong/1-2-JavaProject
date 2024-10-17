@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="520c4b80-c0b8-49b3-9b50-5c69fdad8676" name="Changes" comment="1016 데이터베이스 &#10;오라클DB 연동">
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_4/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_4/MainShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_4/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_4/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_4/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="520c4b80-c0b8-49b3-9b50-5c69fdad8676" name="Changes" comment="1017 업캐스팅 : 실습 10-4&#10;(배열)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +171,7 @@
       <workItem from="1729042187231" duration="1387000" />
       <workItem from="1729044379148" duration="1888000" />
       <workItem from="1729051300935" duration="5000" />
-      <workItem from="1729124654716" duration="744000" />
+      <workItem from="1729124654716" duration="1078000" />
     </task>
     <task id="LOCAL-00001" summary="0905 자바 클래스와 객체">
       <option name="closed" value="true" />
@@ -244,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729046202775</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1017 업캐스팅 : 실습 10-4&#10;(배열)">
+      <option name="closed" value="true" />
+      <created>1729125733910</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729125733910</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +258,8 @@
     <MESSAGE value="Java 8장 연습문제&#10;0919 자바 9장 실습 실습9-3까지" />
     <MESSAGE value="1010 자바 10장 상속의 개념" />
     <MESSAGE value="1016 데이터베이스 &#10;오라클DB 연동" />
-    <option name="LAST_COMMIT_MESSAGE" value="1016 데이터베이스 &#10;오라클DB 연동" />
+    <MESSAGE value="1017 업캐스팅 : 실습 10-4&#10;(배열)" />
+    <option name="LAST_COMMIT_MESSAGE" value="1017 업캐스팅 : 실습 10-4&#10;(배열)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
