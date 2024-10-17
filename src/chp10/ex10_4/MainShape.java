@@ -1,6 +1,6 @@
 package chp10.ex10_4;
 
-public class MainShape {
+public class MainShape{
 
     public static void main(String[] args) {
         Square s = new Square();
