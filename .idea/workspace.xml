@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="520c4b80-c0b8-49b3-9b50-5c69fdad8676" name="Changes" comment="1017 자바 실습 10-4 ArrayList">
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_4/MainSquare.java" afterDir="false" />
+    <list default="true" id="520c4b80-c0b8-49b3-9b50-5c69fdad8676" name="Changes" comment="1017 범위제한실습">
+      <change afterPath="$PROJECT_DIR$/src/jdbc2/controller/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc2/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc2/view/CustomerView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chp10/ex10_4/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chp10/ex10_4/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc/MainJDBCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/MainJDBCTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +82,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="jdbc2" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.MainJDBCTest">
     <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chp09.ex09_4.ArrayListTest" />
@@ -175,7 +182,10 @@
       <workItem from="1729042187231" duration="1387000" />
       <workItem from="1729044379148" duration="1888000" />
       <workItem from="1729051300935" duration="5000" />
-      <workItem from="1729124654716" duration="1834000" />
+      <workItem from="1729124654716" duration="1938000" />
+      <workItem from="1729136482672" duration="6000" />
+      <workItem from="1729560643114" duration="35000" />
+      <workItem from="1729642184913" duration="8477000" />
     </task>
     <task id="LOCAL-00001" summary="0905 자바 클래스와 객체">
       <option name="closed" value="true" />
@@ -273,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729125996108</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="1017 범위제한실습">
+      <option name="closed" value="true" />
+      <created>1729126605352</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1729126605352</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +306,8 @@
     <MESSAGE value="1016 데이터베이스 &#10;오라클DB 연동" />
     <MESSAGE value="1017 업캐스팅 : 실습 10-4&#10;(배열)" />
     <MESSAGE value="1017 자바 실습 10-4 ArrayList" />
-    <option name="LAST_COMMIT_MESSAGE" value="1017 자바 실습 10-4 ArrayList" />
+    <MESSAGE value="1017 범위제한실습" />
+    <option name="LAST_COMMIT_MESSAGE" value="1017 범위제한실습" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
