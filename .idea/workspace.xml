@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="520c4b80-c0b8-49b3-9b50-5c69fdad8676" name="Changes" comment="1017 범위제한실습">
-      <change afterPath="$PROJECT_DIR$/src/jdbc2/controller/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc2/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc2/view/CustomerView.java" afterDir="false" />
+    <list default="true" id="520c4b80-c0b8-49b3-9b50-5c69fdad8676" name="Changes" comment="JDBC Programming &amp; 패키지를 MVC 모델링에 따라 분류하여 사용">
+      <change afterPath="$PROJECT_DIR$/src/jdbc3/Controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc3/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc3/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc3/view/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/MainJDBCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/MainJDBCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc2/controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc2/controller/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,6 @@
   <component name="ProjectId" id="2ld3cCAumLhNnEMmtUzVSEVLRwk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
@@ -185,7 +185,11 @@
       <workItem from="1729124654716" duration="1938000" />
       <workItem from="1729136482672" duration="6000" />
       <workItem from="1729560643114" duration="35000" />
-      <workItem from="1729642184913" duration="8477000" />
+      <workItem from="1729642184913" duration="9327000" />
+      <workItem from="1729754420602" duration="1511000" />
+      <workItem from="1730248232519" duration="34000" />
+      <workItem from="1730248276600" duration="5261000" />
+      <workItem from="1730254135087" duration="1675000" />
     </task>
     <task id="LOCAL-00001" summary="0905 자바 클래스와 객체">
       <option name="closed" value="true" />
@@ -291,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729126605352</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="JDBC Programming &amp; 패키지를 MVC 모델링에 따라 분류하여 사용">
+      <option name="closed" value="true" />
+      <created>1729651858208</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1729651858208</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +319,8 @@
     <MESSAGE value="1017 업캐스팅 : 실습 10-4&#10;(배열)" />
     <MESSAGE value="1017 자바 실습 10-4 ArrayList" />
     <MESSAGE value="1017 범위제한실습" />
-    <option name="LAST_COMMIT_MESSAGE" value="1017 범위제한실습" />
+    <MESSAGE value="JDBC Programming &amp; 패키지를 MVC 모델링에 따라 분류하여 사용" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDBC Programming &amp; 패키지를 MVC 모델링에 따라 분류하여 사용" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
