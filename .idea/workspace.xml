@@ -4,23 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="520c4b80-c0b8-49b3-9b50-5c69fdad8676" name="Changes" comment="JDBC Programming &amp; 패키지를 MVC 모델링에 따라 분류하여 사용2">
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_5/Archer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_5/MainArcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_5/MasterArcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_6/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_6/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_6/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_6/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_6/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_7/AAA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_7/BBB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_7/MainConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_8/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_8/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_8/Truck.java" afterDir="false" />
+    <list default="true" id="520c4b80-c0b8-49b3-9b50-5c69fdad8676" name="Changes" comment="10장 상속, 메소드오버라이딩, 생성자호출 순서와 실행순서, 추상클래스 개념">
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_10/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_10/MainItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_11/Item2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_11/MainWeapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_11/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_14/MainPro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_14/pack1/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_14/pack2/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_9/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_9/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_9/MainAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/ex10_9/cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/protected1/MainChild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/protected1/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp10/protected1/test/Child.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chp10/Novice1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,17 +66,22 @@
     "Application.MainAccount.executor": "Run",
     "Application.MainArcher.executor": "Run",
     "Application.MainAvenger.executor": "Run",
+    "Application.MainChild.executor": "Run",
     "Application.MainConstructor.executor": "Run",
     "Application.MainController.executor": "Run",
     "Application.MainDog.executor": "Run",
     "Application.MainDrink.executor": "Run",
     "Application.MainHero.executor": "Run",
+    "Application.MainItem.executor": "Run",
     "Application.MainJDBCTest.executor": "Run",
     "Application.MainMyMath.executor": "Run",
+    "Application.MainPro.executor": "Run",
     "Application.MainRandom.executor": "Run",
     "Application.MainSquare.executor": "Debug",
     "Application.MainStudent.executor": "Run",
+    "Application.MainWeapon.executor": "Run",
     "Application.RPGGameTest.executor": "Run",
+    "Application.chp10.ex10_8.MainController.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -100,7 +105,7 @@
       <recent name="jdbc2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.chp10.ex10_8.MainController">
+  <component name="RunManager">
     <configuration name="MainArcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chp10.ex10_5.MainArcher" />
       <module name="Java0905" />
@@ -127,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainJDBCTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdbc.MainJDBCTest" />
+    <configuration name="MainItem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chp10.ex10_10.MainItem" />
       <module name="Java0905" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.*" />
+          <option name="PATTERN" value="chp10.ex10_10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RPGGameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chp10.ex10_1.RPGGameTest" />
+    <configuration name="MainJDBCTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.MainJDBCTest" />
       <module name="Java0905" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chp10.ex10_1.*" />
+          <option name="PATTERN" value="jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainItem" />
         <item itemvalue="Application.chp10.ex10_8.MainController" />
         <item itemvalue="Application.MainController" />
         <item itemvalue="Application.MainArcher" />
         <item itemvalue="Application.MainJDBCTest" />
-        <item itemvalue="Application.RPGGameTest" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +222,10 @@
       <workItem from="1730248232519" duration="34000" />
       <workItem from="1730248276600" duration="5261000" />
       <workItem from="1730254135087" duration="2069000" />
-      <workItem from="1730334294508" duration="7369000" />
+      <workItem from="1730334294508" duration="8163000" />
+      <workItem from="1730353654882" duration="10000" />
+      <workItem from="1730354391298" duration="12000" />
+      <workItem from="1730938843976" duration="8520000" />
     </task>
     <task id="LOCAL-00001" summary="0905 자바 클래스와 객체">
       <option name="closed" value="true" />
@@ -339,7 +347,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730256217801</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="10장 상속, 메소드오버라이딩, 생성자호출 순서와 실행순서, 추상클래스 개념">
+      <option name="closed" value="true" />
+      <created>1730342527371</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1730342527371</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +373,8 @@
     <MESSAGE value="1017 범위제한실습" />
     <MESSAGE value="JDBC Programming &amp; 패키지를 MVC 모델링에 따라 분류하여 사용" />
     <MESSAGE value="JDBC Programming &amp; 패키지를 MVC 모델링에 따라 분류하여 사용2" />
-    <option name="LAST_COMMIT_MESSAGE" value="JDBC Programming &amp; 패키지를 MVC 모델링에 따라 분류하여 사용2" />
+    <MESSAGE value="10장 상속, 메소드오버라이딩, 생성자호출 순서와 실행순서, 추상클래스 개념" />
+    <option name="LAST_COMMIT_MESSAGE" value="10장 상속, 메소드오버라이딩, 생성자호출 순서와 실행순서, 추상클래스 개념" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
