@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="520c4b80-c0b8-49b3-9b50-5c69fdad8676" name="Changes" comment="12장 예외발생 이유 및 처리방법1">
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_4/MainNullPointer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_4/NullPointerExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_5/MainInterrupted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_5/interruptedExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_6/MainMyAgeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_6/MyAgeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_7/MainThrows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_7/ThrowsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_9/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_9/MainBankAccount.java" afterDir="false" />
+    <list default="true" id="520c4b80-c0b8-49b3-9b50-5c69fdad8676" name="Changes" comment="12장 예외의 종류, throw, throws, 파일입출력">
+      <change afterPath="$PROJECT_DIR$/src/_gui/controller/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_gui/view/OrderInfoView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_10/MainBankAccountReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chp12/ex12_9/Calculator.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +21,7 @@
       <list>
         <option value="Interface" />
         <option value="Exception" />
+        <option value="JSX File" />
         <option value="Class" />
       </list>
     </option>
@@ -63,6 +58,8 @@
     "Application.MainAccount.executor": "Run",
     "Application.MainArcher.executor": "Run",
     "Application.MainAvenger.executor": "Run",
+    "Application.MainBankAccount.executor": "Run",
+    "Application.MainBankAccountReader.executor": "Run",
     "Application.MainChild.executor": "Run",
     "Application.MainConstant.executor": "Run",
     "Application.MainConstructor.executor": "Run",
@@ -71,6 +68,7 @@
     "Application.MainDrink.executor": "Run",
     "Application.MainException12_1.executor": "Run",
     "Application.MainException12_3.executor": "Run",
+    "Application.MainFrame.executor": "Run",
     "Application.MainHero.executor": "Run",
     "Application.MainInterrupted.executor": "Run",
     "Application.MainIphone.executor": "Run",
@@ -86,6 +84,7 @@
     "Application.MainWeapon.executor": "Run",
     "Application.RPGGameTest.executor": "Run",
     "Application.chp10.ex10_8.MainController.executor": "Run",
+    "Application.jFrameTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -234,7 +233,9 @@
       <workItem from="1731544143816" duration="5418000" />
       <workItem from="1732148336847" duration="8811000" />
       <workItem from="1732165465052" duration="3000" />
-      <workItem from="1732754434079" duration="6480000" />
+      <workItem from="1732754434079" duration="6533000" />
+      <workItem from="1732769812463" duration="757000" />
+      <workItem from="1733358225471" duration="7458000" />
     </task>
     <task id="LOCAL-00001" summary="0905 자바 클래스와 객체">
       <option name="closed" value="true" />
@@ -380,7 +381,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732157487285</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="12장 예외의 종류, throw, throws, 파일입출력">
+      <option name="closed" value="true" />
+      <created>1732762129966</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1732762129966</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,7 +410,8 @@
     <MESSAGE value="10장 상속, 메소드오버라이딩, 생성자호출 순서와 실행순서, 추상클래스 개념" />
     <MESSAGE value="10장 상속, 추상클래스, this, super, protected" />
     <MESSAGE value="12장 예외발생 이유 및 처리방법1" />
-    <option name="LAST_COMMIT_MESSAGE" value="12장 예외발생 이유 및 처리방법1" />
+    <MESSAGE value="12장 예외의 종류, throw, throws, 파일입출력" />
+    <option name="LAST_COMMIT_MESSAGE" value="12장 예외의 종류, throw, throws, 파일입출력" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
